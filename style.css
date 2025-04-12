@@ -1,0 +1,23 @@
+.tabs {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+.tab {
+padding: 10px 20px;
+border: 1px solid #ccc;
+border-bottom: none;
+background: #eee;
+}
+.tab.active {
+background: #fff;
+font-weight: bold;
+}
+.tab-content {
+border: 1px solid #ccc;
+padding: 1em;
+display: none;
+}
+.tab-content.active {
+display: block;
+}
