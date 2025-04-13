@@ -16,37 +16,31 @@
 
 <body>
     <!----- header----->
-    <header>ヘッダー</header>
+    <header>
+        <div class="title">
+            <h1>Ren Akiba's Portfolio</h1>
+        </div>
+    </header>
     <nav>ナビ</nav>
     <!----- /header ----->
 
     <!----- main ----->
-    <article>
-        <h1>タイトル</h1>
-        <section>
-            <h2>見出し２</h2>
-            <p>コンテンツの内容</p>
-        </section>
+    <div class="main-container">
+        <div class="buttons">
+            <div class="button" id="a_btn">Aボタン</button>
+            <div class="button" id="b_btn">Bボタン</button>
+        </div>
 
-        <div class="tabs">
-            <div class="tab active" data-tab="tab1">ホーム</div>
-            <div class="tab" data-tab="tab2">プロフィール</div>
-            <div class="tab" data-tab="tab3">連絡先</div>
-          </div>
-        
-          <div id="tab1" class="tab-content active">
-            <h2>ホーム</h2>
-            <p>ようこそ！</p>
-          </div>
-          <div id="tab2" class="tab-content">
-            <h2>プロフィール</h2>
-            <p>ここにプロフィール情報が入ります。</p>
-          </div>
-          <div id="tab3" class="tab-content">
-            <h2>連絡先</h2>
-            <p>お問い合わせはこちらまで。</p>
-          </div>
-    </article>
+        <div class="screen">
+            <div class="a_screen">
+                <p>Aの画面です</p>
+            </div>
+
+            <div class="b_screen">
+                <p>Bの画面です</p>
+            </div>
+        </div>
+    </div>
     <!----- /main ----->
 
     <!----- footer ----->

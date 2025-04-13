@@ -1,23 +1,41 @@
-.tabs {
-    display: flex;
-    cursor: pointer;
-    margin-bottom: 1em;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* ➀切り替えボタン */
+.buttons{
+    margin: 50px auto;   /* 上下 50px 空け、左右中央に配置 */
+    width: 210px;        /* 横幅 210px */
 }
-.tab {
-padding: 10px 20px;
-border: 1px solid #ccc;
-border-bottom: none;
-background: #eee;
+
+/* ➁ボタン単体 */
+.button{
+    width: 100px;               /* 横幅 210px */
+    height: 30px;               /* 縦幅 30px */
 }
-.tab.active {
-background: #fff;
-font-weight: bold;
+
+/* Aボタン */
+#a_btn{
+    color: white;           /* 文字色：白 */
+    background-color: red;  /* 背景色：赤 */
 }
-.tab-content {
-border: 1px solid #ccc;
-padding: 1em;
-display: none;
+
+/* Aボタン active */
+#a_btn.active{
+    color: black;             /* 文字色：黒 */
+    background-color: white;  /* 文字色：白 */
 }
-.tab-content.active {
-display: block;
-}  
+
+/* Bボタン */
+#b_btn{
+    color: black;             /* 文字色：黒 */
+    background-color: white;  /* 文字色：白 */
+}
+
+/* Bボタン active */
+#b_btn.active{
+    color: white;            /* 文字色：白 */
+    background-color: blue;  /* 背景色：青 */
+}
